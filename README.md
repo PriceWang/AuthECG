@@ -8,7 +8,7 @@
  * 
  * Copyright (c) 2024 by Guoxin Wang, All Rights Reserved. 
 -->
-# Deep ECG
+# AuthECG
 
 ## Introduction
 
