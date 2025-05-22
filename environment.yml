@@ -1,4 +1,4 @@
-name: deepecg
+name: authecg
 channels:
   - defaults
 dependencies:
