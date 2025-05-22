@@ -26,15 +26,15 @@ The whole project contains three different methods to rebuild the model and exec
 
     This rebuilds the model from a pre-trained CNN model and uses **binary weights**. The weights are in this format:
 
-    <div align=center> <img src="https://latex.codecogs.com/svg.latex?\pm1"> </div>
+    $\pm1$
 
     The best performance is **88.85%**
 
 - Exponentiation Neural Network
 
-    This rebuilds the model from a pre-trained CNN model and uses **exponent weights**. The weights are in this format:
+    This rebuilds the model from a pre-trained CNN model and uses **exponential weights**. The weights are in this format:
 
-    <div align=center> <img src="https://latex.codecogs.com/svg.latex?\frac{INTEGER}{2^n}"> </div>
+    $\frac{INTEGER}{2^n}$
 
     **The performance increases with a larger 'n' value**
 
@@ -49,13 +49,13 @@ The whole project contains three different methods to rebuild the model and exec
     Install the necessary libraries:
 
     ```cmd
-    conda env create -n deepecg --file environment.yml
+    conda env create --file environment.yml
     ```
 
     Activate environment:
 
     ```cmd
-    conda activate deepecg
+    conda activate authecg
     ```
 
 ## Usage
