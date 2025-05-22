@@ -26,7 +26,7 @@ The whole project contains three different methods to rebuild the model and exec
 
     This rebuilds the model from a pre-trained CNN model and uses **binary weights**. The weights are in this format:
 
-    $\pm1$
+    $$\pm1$$
 
     The best performance is **88.85%**
 
@@ -34,7 +34,7 @@ The whole project contains three different methods to rebuild the model and exec
 
     This rebuilds the model from a pre-trained CNN model and uses **exponential weights**. The weights are in this format:
 
-    $\frac{INTEGER}{2^n}$
+    $$\frac{INTEGER}{2^n}$$
 
     **The performance increases with a larger 'n' value**
 
